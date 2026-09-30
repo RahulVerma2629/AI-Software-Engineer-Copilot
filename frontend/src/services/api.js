@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://codepilot-backend-xtt8.onrender.com";
+const API_BASE_URL = "http://codepilot-backend-xtt8.onrender.com";
 
 async function handleResponse(response) {
   const data = await response.json().catch(() => null);
